@@ -24,5 +24,6 @@ public class AppointmentModel {
     private String location;
     private String status;
     private Boolean availability;
+    private String createdBy;
 
 }
