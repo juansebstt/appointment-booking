@@ -23,5 +23,6 @@ public class AppointmentModel {
     private LocalDateTime appointmentDate;
     private String location;
     private String status;
+    private Boolean availability;
 
 }
