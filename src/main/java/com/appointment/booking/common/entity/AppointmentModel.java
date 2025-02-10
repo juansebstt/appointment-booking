@@ -3,7 +3,9 @@ package com.appointment.booking.common.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 @Getter
 @Setter
@@ -18,12 +20,8 @@ public class AppointmentModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String title;
-    private String description;
-    private LocalDateTime appointmentDate;
-    private String location;
-    private String status;
-    private Boolean availability;
-    private String createdBy;
+    private LocalDate appointmentDate;
+    private LocalTime appointmentTime;
+    private String patientName;
 
 }
