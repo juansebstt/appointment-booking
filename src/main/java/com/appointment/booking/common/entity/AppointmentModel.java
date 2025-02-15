@@ -14,6 +14,7 @@ import java.time.LocalTime;
 @Builder
 @Entity
 @Table(name = "appointments")
+// @Data is a convenient shortcut annotation that bundles the features of @ToString, @EqualsAndHashCode, @Getter / @Setter and @RequiredArgsConstructor together
 public class AppointmentModel {
 
     @Id
