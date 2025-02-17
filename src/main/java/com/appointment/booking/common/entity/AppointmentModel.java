@@ -24,5 +24,9 @@ public class AppointmentModel {
     private LocalDate appointmentDate;
     private LocalTime appointmentTime;
     private String patientName;
+    private String doctorName;
+    private String appointmentReason;
+    private LocalDateTime createdDate;
+    private LocalDateTime updatedDate;
 
 }
