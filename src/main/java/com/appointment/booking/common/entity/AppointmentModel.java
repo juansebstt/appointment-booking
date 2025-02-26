@@ -21,8 +21,13 @@ public class AppointmentModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    // @Column annotation is used to specify the mapped column for a persistent property or field.
     private LocalDate appointmentDate;
+
+    // @Column annotation is used to specify the mapped column for a persistent property or field.
     private LocalTime appointmentTime;
+
+    // @Column annotation is used to specify the mapped column for a persistent property or field.
     private String patientName;
     private String doctorName;
     private String appointmentReason;
