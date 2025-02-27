@@ -9,6 +9,7 @@ import java.util.Optional;
 // @Service annotation is used to indicate that the class provides the mechanism for storage, retrieval, search, update and delete operation on objects.
 public interface AppointmentService {
 
+    // @Override annotation informs the compiler that the element is meant to override an element declared in a superclass.
     Optional<AppointmentModel> getAppointmentById(Long id);
 
     List<AppointmentModel> getAllAppointments();
