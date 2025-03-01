@@ -14,6 +14,7 @@ public interface AppointmentService {
 
     List<AppointmentModel> getAllAppointments();
 
+    // @PutMapping annotation is used to map HTTP PUT requests onto specific handler methods.
     AppointmentDTO updateAppointment(Long id, AppointmentDTO appointmentDTO);
 
     void deleteAppointment(Long id);
